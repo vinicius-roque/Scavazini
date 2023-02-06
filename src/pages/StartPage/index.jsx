@@ -10,7 +10,7 @@ export default function StartPage() {
       <Left />
       <S.Start>
         <S.Text>Começar agora!</S.Text>
-        <S.Button onclick={() => navigate("/sign-in")}>{">"}</S.Button>
+        <S.Button onClick={() => navigate("/sign-in")}>{">"}</S.Button>
       </S.Start>
     </S.Container>
   );

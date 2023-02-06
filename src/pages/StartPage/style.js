@@ -5,7 +5,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   background-image: url(${(props) => props.background});
-  background-size: cover;
+  background-size: 77%;
   background-position: center;
   background-repeat: no-repeat;
 
@@ -15,6 +15,7 @@ export const Container = styled.div`
 
   @media (max-width: 768px) {
     justify-content: center;
+    background-size: contain;
   };
 `;
 
@@ -55,7 +56,7 @@ export const Button = styled.button`
   border-radius: 50%;
   border: none;
   outline: none;
-  margin-bottom: 750px;
+  margin-bottom: 610px;
   cursor: pointer;
 
   &:hover {
@@ -64,11 +65,11 @@ export const Button = styled.button`
 `;
 
 export const BodyLeft = styled.div`
-  width: 90%;
+  width: 86%;
   display: flex;
   flex-direction: column;
   margin-left: 18rem;
-  margin-top: 2rem;
+  margin-top: 6rem;
 
   @media (max-width: 1058px) {
     display: none;
